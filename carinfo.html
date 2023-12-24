@@ -1,11 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="project/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Single car</title>
+    </head>
 <body>
+    <header>
+        <div class="logo">
+           <a href="./home.php" target="_blank">
+            <img src="img/Logo.png" alt="My Company Logo">
+           </a> 
+        </div>
+        <nav>
+            <ul>
+              <li><a href="./home.php">Home</a></li>
+              <li><a href="./cars.php">Cars</a></li>
+              <li><a href="./aboutus.php">About</a></li>
+              <li><a href="./contact.php">Contact</a></li>
+              <li><a href="./maintenance.php">Maintenance</a></li>
+             <form action="./php/logout.php" method="post">
+      <input type="submit" name="logout" value="logout" style="background-color: blue; color: white; padding:5px 20px; border: none; border-radius: 4px; cursor: pointer;">
+    </form>
+          </ul>
+        </nav>
+    </header>
+    <div id='head'>
+        <h2 id='price'></h2>
+        <h2 id='name'></h2>
+    </div>
+
+
+    <div id='gallery'>
+
+        <div id='box'>
+            <img src= 'img/big.jpg' alt='' >
+        </div>
+
+
+    </div>
+
+                
+                <div id='section2'>
+                <div id='par'>
+                        <pre>
+                        <span style='color:rgb(0, 92, 183);font-size: xx-large;'>Features & Specs</span>
+                       
+                        </pre>
+                    <span id='stars'>
+                        <span id='rating'>Rating Car</span>
+                        <br>
+                        <span class='fa fa-star checked fa-2x'></span>
+                        <span class='fa fa-star checked fa-2x'></span>
+                        <span class='fa fa-star checked fa-2x'></span>
+                        <span class='fa fa-star fa-2x' ></span>
+                        <span class='fa fa-star fa-2x'></span>
+                    </span>
+                </div>
+                <div id='sec_for_info'>
+                    <h2 id='car_info'>Car information</h2>
+                    <div id='div_info'>
+                        <H4 >Brand: </H4>
+                        <H4 >model: </H4>
+                        <H4 >Year: </H4>
+                        <H4 >Body Type: </H4>
+                        <H4 >Fuel Type: </H4>
+                        <H4 >Condition: </H4>
+                        <H4 >Transmission Type: </H4>
+                        <div id='PAYNOW'>
+                            <a style='text-decoration: none;' href='./payment.php'>
+                                <button>Bay Now</button>
+                            </a> 
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+        
+            </div>
+           
+
+
+<!-- //////////////////////// -->
     
+    
+
+    <div class="container">
+        <div class="box">
+          <img src="./img/3.jpg" alt="Image" class="imgcar">
+          <h2>Mercedes 6hf</h2>
+          <h3>Subtitle One</h3>
+          <button>Button </button>
+        </div>
+        <div class="box">
+          <img src="./img/5.jpg" alt="Image" class="imgcar">
+          <h2>Mercedes 34t</h2>
+          <h3>Subtitle Two</h3>
+          <button>Button</button>
+        </div>
+        <div class="box">
+          <img src="./img/1.jpg" alt="Image"class="imgcar">
+          <h2>Mercedes rt</h2>
+          <h3>Subtitle Three</h3>
+          <button>Button </button>
+        </div>
+        <div class="box">
+            <img src="./img/2.jpg" alt=" Image"class="imgcar">
+            <h2>Mercedes34</h2>
+            <h3>Subtitle</h3>
+            <button>Button Three</button>
+          </div>
+      </div>
+      <footer class="footer">
+        <div class="left-footer">
+           <a href="/home.html" target="_blank">
+            <img src="img/Logo.png" alt="Logo" style="width: 200px;">
+           </a> 
+            <ul>
+                <li>Telephone: 123-456-7890</li>
+                <li>Address: 123 Main St.</li>
+                <li>Email: car@car.com</li>
+            </ul>
+        </div>
+        <div class="middle-footer">
+            <ul>
+                <li><a style="text-decoration:none;color: #ffffff;" href="./home.php">Home</a></li>
+                <li><a style="text-decoration:none;color: #ffffff;" href="./aboutus.php">About</a></li>
+                <li><a style="text-decoration:none;color: #ffffff;" href="./contact.php">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right-footer">
+            <ul>
+                <li><a style="text-decoration:none;color: #ffffff;" href="./maintenance.php">Maintenance</a></li>
+                <li><a style="text-decoration:none;color: #ffffff;" href="./contact.php">contact</a></li>
+                <li><a style="text-decoration:none;color: #ffffff;" href="./aboutus.php">About</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copy">
+        <p>&copy; 2023 Example Company. All rights reserved.</p>
+    </div>
 </body>
 </html>
